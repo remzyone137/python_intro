@@ -11,7 +11,7 @@ users=["Remo", "Tommy", "Marie"] # decalre users variable of type array/list
 session = { # python object/dict, complex data structure
     "id": 231231,
     "name": "host",
-    "createdAt": 170545353
+    "createdAt": 17545353
 }
 # print(session)
 # print(session["name"]) # print just one key/entity of object/dict
