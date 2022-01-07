@@ -1,14 +1,14 @@
 # Variables
-name="henry" # declare string type variable with value "henry"
-age=4 # type integer/number
-loggedIn=False # type boolean (True OR False)
+name = "henry"  # declare string type variable with value "henry"
+age = 4  # type integer/number
+loggedIn = False  # type boolean (True OR False)
 # print("Welcome " + name + "!")
-users=["Remo", "Tommy", "Marie"] # decalre users variable of type array/list
+users = ["Remo", "Tommy", "Marie"]  # decalre users variable of type array/list
 # print (users) # prints the whole array
 # print(users[0]) # index is based 0
 # print(users[:1])
 # print(users[1:]) # array slicing
-session = { # python object/dict, complex data structure
+session = {  # python object/dict, complex data structure
     "id": 231231,
     "name": "host",
     "createdAt": 1754345353
@@ -21,21 +21,28 @@ session = { # python object/dict, complex data structure
 
 # 1. conditionals
 
-age=14
+# age=14
 
-if age > 17:
-    print("Welcome")
-else:
-    print("Too yong")
+# if age > 17:
+#     print("Welcome")
+# else:
+#     print("Too yong")
 
 
-users=[14,33,52,78]
+# users = [14, 33, 52, 78]
+# for user in users:
+#     print(user)
+#     if user > 17:
+#         print("Welcome")
+#     else:
+#         print("Too yong")
+
+longest_user_name = 0
+users = ['ben', 'sven', 'harry', 'Cappuccino']
 for user in users:
     print(user)
-    if user > 17:
-        print("Welcome")
-    else:
-        print("Too yong")
-
-
-print(age)
+    print(len (user))
+    if len (user) > longest_user_name:
+        longest_user_name = len (user)
+print (longest_user_name) 
+       
